@@ -1,0 +1,12 @@
+{
+  "name": "ketavilo-static",
+  "private": true,
+  "scripts": {
+    "test": "node qa-regressions.cjs",
+    "build:runtime": "node build-runtime.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.3",
+    "esbuild": "0.28.2"
+  }
+}

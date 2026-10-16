@@ -17,3 +17,7 @@ There are 1,012 distinct book summaries: 12 original trilingual summaries plus 1
 Favorites, interface language, theme and selected reading progress are saved only in each visitor’s browser. Twelve classics have local complete texts. Other texts and collection downloads use the original source.
 
 Owner signature: Salim Suliman. Acknowledgment below the signature removed.
+
+## Version 6 loading update
+
+If a previous cached page is open, use the current release link: https://salimwardak.github.io/ketavilo/?v=6 . This release includes real book links in the initial HTML, progressive catalog loading, per-summary text loading, retries, and a script-free catalog at https://salimwardak.github.io/ketavilo/catalog.html .

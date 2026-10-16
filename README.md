@@ -11,3 +11,11 @@ The source text of contemporary books is not reproduced by the summary feature. 
 Owner signature: Salim Suliman
 
 All acknowledgments below the owner signature were removed at the owner's request. Favorites, language, theme and reading progress are local to the browser. No account or cloud synchronization.
+
+## Loading repair — version 6
+
+The first page now contains 25 real book links and an embedded catalog seed (221 Gutenberg editions, 281 source collections and the complete index of 1,012 summaries). It does not wait for the old 9 MB catalog and 4 MB summaries file. The complete catalog loads in 32 small parts; summary text loads in 50-book parts only when opened. Failed requests preserve usable content and expose retry and static catalog links. Eight script-free category pages each list 1,000 real works.
+
+The runtime repairs missing controls in old cached HTML and is compiled for ES2017. Versioned assets and the smaller service-worker cache avoid coupling page startup to a bulk cache download.
+
+Development checks: `npm install`, then `npm test`. To rebuild runtime assets after source edits: `npm run build:runtime`. Tests simulate stalled downloads, failed requests, old cached HTML, retry recovery, all eight categories, source filters, three interface languages, summary loading and reading. The deployed app remains static; npm is needed only for development checks.

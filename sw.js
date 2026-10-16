@@ -1,4 +1,40 @@
-const CACHE='ketavilo-github-20261016-3';
-self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(['/ketavilo/','/ketavilo/style.css','/ketavilo/app.js','/ketavilo/icon.svg','/ketavilo/meta.json','/ketavilo/catalog.json','/ketavilo/local.json','/ketavilo/summaries.json','/ketavilo/sourcebooks.json','/ketavilo/wiki-summaries.json'])).then(()=>self.skipWaiting()))});
-self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('ketavilo-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
-self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin)return;event.respondWith(fetch(event.request).then(response=>{if(response.ok){const copy=response.clone();event.waitUntil(caches.open(CACHE).then(cache=>cache.put(event.request,copy)).catch(()=>{}))}return response}).catch(()=>caches.match(event.request).then(cached=>cached||new Response('Offline: open this page while connected first.',{status:503,headers:{'Content-Type':'text/plain;charset=utf-8'}}))))});
+const CACHE = "ketavilo-v6-20261016";
+const BASE = "/ketavilo/";
+self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then(async (cache) => {
+  await Promise.all([BASE, BASE + "app-v6.js", BASE + "style.css?v=6", BASE + "bootstrap-v6.json", BASE + "icon.svg"].map(async (path) => {
+    try {
+      await cache.add(path);
+    } catch (e) {
+    }
+  }));
+  await self.skipWaiting();
+})));
+self.addEventListener("activate", (event) => event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key.startsWith("ketavilo-") && key !== CACHE).map((key) => caches.delete(key)))).then(() => self.clients.claim())));
+self.addEventListener("fetch", (event) => {
+  const request = event.request, url = new URL(request.url);
+  if (request.method !== "GET" || url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
+  event.respondWith((async () => {
+    const cache = await caches.open(CACHE);
+    const versioned = /\/(?:app-v6\.js|bootstrap-v6\.json|catalog-v6-\d+\.json|summary-v6-\d+\.json)$/.test(url.pathname);
+    if (versioned) {
+      const stored = await cache.match(request);
+      if (stored) return stored;
+    }
+    const controller = typeof AbortController === "function" ? new AbortController() : null, timer = setTimeout(() => {
+      if (controller) controller.abort();
+    }, request.mode === "navigate" ? 8e3 : 15e3);
+    try {
+      const response = await fetch(request, { signal: controller ? controller.signal : void 0, cache: request.mode === "navigate" ? "no-cache" : "default" });
+      if (response.ok) event.waitUntil(cache.put(request, response.clone()).catch(() => {
+      }));
+      return response;
+    } catch (error) {
+      const stored = await cache.match(request, request.mode === "navigate" ? { ignoreSearch: true } : {});
+      if (stored) return stored;
+      if (request.mode === "navigate") return await cache.match(BASE) || new Response("Open the website once while connected.", { status: 503 });
+      throw error;
+    } finally {
+      clearTimeout(timer);
+    }
+  })());
+});

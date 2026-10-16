@@ -1,0 +1,1 @@
+const fs=require('node:fs'),esbuild=require('esbuild');esbuild.buildSync({entryPoints:['app-source-v6.js'],target:'es2017',outfile:'app-v6.js'});fs.copyFileSync('app-v6.js','app.js');esbuild.buildSync({entryPoints:['sw-source-v6.js'],target:'es2017',outfile:'sw.js'});
