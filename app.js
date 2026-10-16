@@ -37,6 +37,12 @@ function prepareControls() {
   $("sort").value = sort;
   document.querySelectorAll("dialog").forEach((dialog) => {
     if (typeof dialog.showModal === "function") return;
+    if (typeof dialog.open !== "boolean") Object.defineProperty(dialog, "open", { configurable: true, get() {
+      return this.hasAttribute("open");
+    }, set(value) {
+      if (value) this.setAttribute("open", "");
+      else this.removeAttribute("open");
+    } });
     dialog.showModal = function() {
       this.setAttribute("open", "");
       this.classList.add("fallback-dialog");

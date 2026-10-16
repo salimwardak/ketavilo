@@ -20,4 +20,4 @@ Owner signature: Salim Suliman. Acknowledgment below the signature removed.
 
 ## Version 6 loading update
 
-If a previous cached page is open, use the current release link: https://salimwardak.github.io/ketavilo/?v=6 . This release includes real book links in the initial HTML, progressive catalog loading, per-summary text loading, retries, and a script-free catalog at https://salimwardak.github.io/ketavilo/catalog.html .
+If a previous cached page is open, use the current release link: https://salimwardak.github.io/ketavilo/?v=7 . This release includes real book links in the initial HTML, progressive catalog loading, per-summary text loading, retries, and a script-free catalog at https://salimwardak.github.io/ketavilo/catalog.html .
