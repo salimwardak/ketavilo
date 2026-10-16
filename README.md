@@ -19,3 +19,7 @@ The first page now contains 25 real book links and an embedded catalog seed (221
 The runtime repairs missing controls in old cached HTML and is compiled for ES2017. Versioned assets and the smaller service-worker cache avoid coupling page startup to a bulk cache download.
 
 Development checks: `npm install`, then `npm test`. To rebuild runtime assets after source edits: `npm run build:runtime`. Tests simulate stalled downloads, failed requests, old cached HTML, retry recovery, all eight categories, source filters, three interface languages, summary loading and reading. The deployed app remains static; npm is needed only for development checks.
+
+
+## Reading and PDF availability (Edition 8)
+12 complete, locally hosted book PDFs are listed in pdf-manifest-v8.json. The PDF-only filter shows exactly these books. Other Gutenberg texts load in a sandboxed iframe without leaving Ketavilo; source connectivity is required and these texts are not locally hosted. Ganjoor collections use the public CORS JSON dataset, with categories and poems rendered inside the reader. Some older source entries may not exist in that dataset. There is no claim that all catalog entries have a PDF or that all external texts are individually verified.

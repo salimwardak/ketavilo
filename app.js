@@ -16,6 +16,118 @@ Object.assign(text.en, { "catalogSource": "Source", "allSources": "All sources",
 Object.assign(text.fa, { "partialLoading": "\u06A9\u062A\u0627\u0628\u200C\u0647\u0627\u06CC \u0622\u0645\u0627\u062F\u0647 \u0642\u0627\u0628\u0644 \u0627\u0633\u062A\u0641\u0627\u062F\u0647\u200C\u0627\u0646\u062F\u061B \u0641\u0647\u0631\u0633\u062A \u06A9\u0627\u0645\u0644 \u062F\u0631 \u067E\u0633\u200C\u0632\u0645\u06CC\u0646\u0647 \u062F\u0631\u06CC\u0627\u0641\u062A \u0645\u06CC\u200C\u0634\u0648\u062F.", "partialError": "\u062F\u0631\u06CC\u0627\u0641\u062A \u0641\u0647\u0631\u0633\u062A \u06A9\u0627\u0645\u0644 \u0645\u062A\u0648\u0642\u0641 \u0634\u062F\u061B \u06A9\u062A\u0627\u0628\u200C\u0647\u0627\u06CC \u0622\u0645\u0627\u062F\u0647 \u0648 \u0641\u0647\u0631\u0633\u062A \u062C\u0627\u06CC\u06AF\u0632\u06CC\u0646 \u0642\u0627\u0628\u0644 \u0627\u0633\u062A\u0641\u0627\u062F\u0647\u200C\u0627\u0646\u062F.", "readyItems": "\u0627\u062B\u0631 \u0622\u0645\u0627\u062F\u0647", "retryCatalog": "\u062F\u0631\u06CC\u0627\u0641\u062A \u062F\u0648\u0628\u0627\u0631\u0647", "readyCatalog": "\u0641\u0647\u0631\u0633\u062A \u0622\u0645\u0627\u062F\u0647\u0654 \u06A9\u062A\u0627\u0628\u200C\u0647\u0627", "summaryLoading": "\u062F\u0631 \u062D\u0627\u0644 \u062F\u0631\u06CC\u0627\u0641\u062A \u0645\u062A\u0646 \u0627\u06CC\u0646 \u062E\u0644\u0627\u0635\u0647\u2026", "summaryLoadError": "\u0627\u06CC\u0646 \u062E\u0644\u0627\u0635\u0647 \u062F\u0631\u06CC\u0627\u0641\u062A \u0646\u0634\u062F. \u062F\u0648\u0628\u0627\u0631\u0647 \u062A\u0644\u0627\u0634 \u06A9\u0646\u06CC\u062F \u06CC\u0627 \u0641\u0647\u0631\u0633\u062A \u0622\u0645\u0627\u062F\u0647 \u0631\u0627 \u0628\u0627\u0632 \u06A9\u0646\u06CC\u062F." });
 Object.assign(text.ps, { "partialLoading": "\u0686\u0645\u062A\u0648 \u06A9\u062A\u0627\u0628\u0648\u0646\u0647 \u06A9\u0627\u0631\u0648\u0644\u0627\u06CC \u0634\u0626\u061B \u0628\u0634\u067E\u0693 \u0644\u0693\u0644\u06CC\u06A9 \u067E\u0647 \u0634\u0627\u0644\u06CC\u062F \u06A9\u06D0 \u0631\u0627\u0681\u064A.", "partialError": "\u062F \u0628\u0634\u067E\u0693 \u0644\u0693\u0644\u06CC\u06A9 \u062A\u0631\u0644\u0627\u0633\u0647 \u06A9\u0648\u0644 \u0648\u062F\u0631\u06D0\u062F\u0644\u061B \u0686\u0645\u062A\u0648 \u06A9\u062A\u0627\u0628\u0648\u0646\u0647 \u0627\u0648 \u0628\u062F\u06CC\u0644 \u0644\u0693\u0644\u06CC\u06A9 \u06A9\u0627\u0631 \u06A9\u0648\u064A.", "readyItems": "\u0686\u0645\u062A\u0648 \u0627\u062B\u0631\u0648\u0646\u0647", "retryCatalog": "\u0628\u06CC\u0627 \u062A\u0631\u0644\u0627\u0633\u0647 \u06A9\u0648\u0644", "readyCatalog": "\u062F \u06A9\u062A\u0627\u0628\u0648\u0646\u0648 \u0686\u0645\u062A\u0648 \u0644\u0693\u0644\u06CC\u06A9", "summaryLoading": "\u062F \u062F\u06D0 \u0644\u0646\u0689\u06CC\u0632 \u0645\u062A\u0646 \u062A\u0631\u0644\u0627\u0633\u0647 \u06A9\u06D0\u0696\u064A\u2026", "summaryLoadError": "\u0644\u0646\u0689\u06CC\u0632 \u062A\u0631\u0644\u0627\u0633\u0647 \u0646\u0647 \u0634\u0648. \u0628\u06CC\u0627 \u0647\u0685\u0647 \u0648\u06A9\u0693\u0626 \u06CC\u0627 \u0686\u0645\u062A\u0648 \u0644\u0693\u0644\u06CC\u06A9 \u067E\u0631\u0627\u0646\u06CC\u0632\u0626." });
 Object.assign(text.en, { "partialLoading": "Ready books work now; the full catalog is loading in the background.", "partialError": "Full catalog loading stopped. Ready books and the alternate catalog still work.", "readyItems": "ready texts", "retryCatalog": "Try loading again", "readyCatalog": "Ready book catalog", "summaryLoading": "Loading this summary\u2026", "summaryLoadError": "This summary could not be loaded. Try again or open the ready catalog." });
+const PDF_FILES = { "74": { "path": "book-74.pdf", "bytes": 476310, "pages": 256, "sha256": "51ed18485c3dbc899a3a3498e10a6707ccb105f00048c3ef4de63cceed6734f1" }, "84": { "path": "book-84.pdf", "bytes": 464147, "pages": 227, "sha256": "17d0de6d737bb7ed3c763e46a0b7f9ecdffa922a246e0ea0c6af39f468ee7b8e" }, "1232": { "path": "book-1232.pdf", "bytes": 313013, "pages": 152, "sha256": "7a924458944aa807aa9c768bda886019d10c5acfff548ca92b15a3cfcfc37260" }, "5200": { "path": "book-5200.pdf", "bytes": 154157, "pages": 69, "sha256": "cc908882b4123a44f536051a8da32b4be832ca0b118ded7fe998f635a4569346" }, "345": { "path": "book-345.pdf", "bytes": 904230, "pages": 458, "sha256": "fddf375051e07f8e5d778e76e136923eefc22d5a1f44c49f2a37a831d50f3181" }, "1661": { "path": "book-1661.pdf", "bytes": 652887, "pages": 344, "sha256": "d059f3187ca5eb1a14d28b97d73a7faf8a0f4fc1df27ff3bf09ce48e4bc991c2" }, "64317": { "path": "book-64317.pdf", "bytes": 350121, "pages": 184, "sha256": "6b83ecbf875552af9c80ef9cc5749bf08069b8c624045bfd11703e18d5d869d2" }, "11": { "path": "book-11.pdf", "bytes": 198625, "pages": 100, "sha256": "ee8d1c6e5856d39a56b1f7bc8710ad772e1d603b5733870eb710464dfd4689ee" }, "46": { "path": "book-46.pdf", "bytes": 212153, "pages": 106, "sha256": "3af16b339aac6ebe5b4ecbe7006398d96494fd5620ae2f58c2505e445bc47538" }, "1342": { "path": "book-1342.pdf", "bytes": 802766, "pages": 416, "sha256": "5ae5b900f67dc8c9636a82ff8d65f2204eb49144b3809355b918d6d46d351945" }, "98": { "path": "book-98.pdf", "bytes": 847829, "pages": 456, "sha256": "c4a158b31a9f366555c8d1da8d68bc7dc129dbaa113da941786ee538a640b747" }, "2701": { "path": "book-2701.pdf", "bytes": 1290924, "pages": 649, "sha256": "79fc066984bbfa7969f9a4107fd83dba8950dbe7ab8c54c4baade650689c859c" } };
+const CATALOG_RANGES = [[1, 2574, "catalog-v6-00.json"], [2575, 5116, "catalog-v6-01.json"], [5117, 7666, "catalog-v6-02.json"], [7667, 10702, "catalog-v6-03.json"], [10703, 13265, "catalog-v6-04.json"], [13266, 15767, "catalog-v6-05.json"], [15768, 18269, "catalog-v6-06.json"], [18270, 20920, "catalog-v6-07.json"], [20921, 23603, "catalog-v6-08.json"], [23604, 26154, "catalog-v6-09.json"], [26155, 28758, "catalog-v6-10.json"], [28759, 31309, "catalog-v6-11.json"], [31310, 33809, "catalog-v6-12.json"], [33810, 36315, "catalog-v6-13.json"], [36316, 38816, "catalog-v6-14.json"], [38817, 41316, "catalog-v6-15.json"], [41317, 43816, "catalog-v6-16.json"], [43817, 46316, "catalog-v6-17.json"], [46317, 48817, "catalog-v6-18.json"], [48818, 51317, "catalog-v6-19.json"], [51318, 53821, "catalog-v6-20.json"], [53822, 56324, "catalog-v6-21.json"], [56325, 58828, "catalog-v6-22.json"], [58829, 61329, "catalog-v6-23.json"], [61330, 63831, "catalog-v6-24.json"], [63832, 66333, "catalog-v6-25.json"], [66334, 68851, "catalog-v6-26.json"], [68852, 71429, "catalog-v6-27.json"], [71430, 73930, "catalog-v6-28.json"], [73931, 76430, "catalog-v6-29.json"], [76431, 78937, "catalog-v6-30.json"], [78938, 79763, "catalog-v6-31.json"]];
+let availability = "";
+Object.assign(text.fa, { downloadPdf: "\u062F\u0627\u0646\u0644\u0648\u062F PDF \u06A9\u0627\u0645\u0644", pdfReady: "PDF \u0622\u0645\u0627\u062F\u0647", pdfUnavailable: "PDF \u06A9\u0627\u0645\u0644 \u0627\u06CC\u0646 \u0639\u0646\u0648\u0627\u0646 \u0647\u0646\u0648\u0632 \u062F\u0631 \u06A9\u062A\u0627\u0628\u062E\u0627\u0646\u0647 \u0645\u0648\u062C\u0648\u062F \u0646\u06CC\u0633\u062A.", internalRead: "\u0645\u0637\u0627\u0644\u0639\u0647 \u062F\u0631 \u0647\u0645\u06CC\u0646 \u0635\u0641\u062D\u0647", frameNote: "\u0645\u062A\u0646 \u06A9\u0627\u0645\u0644 \u062F\u0631 \u0642\u0627\u0628 \u0632\u06CC\u0631 \u0628\u0627\u0632 \u0645\u06CC\u200C\u0634\u0648\u062F\u061B \u0628\u0647 \u0633\u0627\u06CC\u062A \u062F\u06CC\u06AF\u0631\u06CC \u0645\u0646\u062A\u0642\u0644 \u0646\u0645\u06CC\u200C\u0634\u0648\u06CC\u062F. \u0628\u0627\u0631\u06AF\u06CC\u0631\u06CC \u0646\u062E\u0633\u062A \u0628\u0647 \u0627\u062A\u0635\u0627\u0644 \u0645\u0646\u0628\u0639 \u0646\u06CC\u0627\u0632 \u062F\u0627\u0631\u062F.", collectionContents: "\u0641\u0647\u0631\u0633\u062A \u0628\u062E\u0634\u200C\u0647\u0627\u06CC \u0645\u062C\u0645\u0648\u0639\u0647", readerRetry: "\u062A\u0644\u0627\u0634 \u062F\u0648\u0628\u0627\u0631\u0647", readerFailed: "\u0645\u062A\u0646 \u062F\u0631\u06CC\u0627\u0641\u062A \u0646\u0634\u062F. \u062F\u0648\u0628\u0627\u0631\u0647 \u062A\u0644\u0627\u0634 \u06A9\u0646\u06CC\u062F\u061B \u0627\u06CC\u0646 \u06A9\u062A\u0627\u0628 \u0647\u0646\u0648\u0632 \u0628\u0631\u0627\u06CC \u0645\u0637\u0627\u0644\u0639\u0647\u0654 \u0622\u0641\u0644\u0627\u06CC\u0646 \u0630\u062E\u06CC\u0631\u0647 \u0646\u0634\u062F\u0647 \u0627\u0633\u062A.", backContents: "\u0628\u0627\u0632\u06AF\u0634\u062A \u0628\u0647 \u0641\u0647\u0631\u0633\u062A \u0645\u062C\u0645\u0648\u0639\u0647", allFormats: "\u0647\u0645\u0647\u0654 \u0642\u0627\u0644\u0628\u200C\u0647\u0627", pdfOnly: "\u0641\u0642\u0637 PDF \u0622\u0645\u0627\u062F\u0647 \xB7 \u06F1\u06F2 \u06A9\u062A\u0627\u0628", availability: "\u062F\u0633\u062A\u0631\u0633\u06CC", sourceReader: "\u06A9\u062A\u0627\u0628\u062E\u0648\u0627\u0646 \u0622\u0646\u0644\u0627\u06CC\u0646", accessText: "\u062F\u0648\u0627\u0632\u062F\u0647 \u06A9\u062A\u0627\u0628 \u0645\u062A\u0646 \u06A9\u0627\u0645\u0644 \u0648 PDF \u0645\u0633\u062A\u0642\u06CC\u0645 \u062F\u0627\u0631\u0646\u062F. \u062F\u06CC\u06AF\u0631 \u0645\u062A\u0646\u200C\u0647\u0627\u06CC \u06AF\u0648\u062A\u0646\u0628\u0631\u06AF \u062F\u0631 \u0642\u0627\u0628 \u062F\u0627\u062E\u0644\u06CC \u0627\u0632 \u0645\u0646\u0628\u0639 \u0628\u0627\u0631\u06AF\u06CC\u0631\u06CC \u0645\u06CC\u200C\u0634\u0648\u0646\u062F\u061B \u0645\u062C\u0645\u0648\u0639\u0647\u200C\u0647\u0627\u06CC \u06AF\u0646\u062C\u0648\u0631 \u0628\u062E\u0634\u200C\u0628\u0647\u200C\u0628\u062E\u0634 \u062F\u0631 \u06A9\u062A\u0627\u0628\u062E\u0648\u0627\u0646 \u0628\u0627\u0632 \u0645\u06CC\u200C\u0634\u0648\u0646\u062F. PDF \u0647\u0645\u0647\u0654 \u0639\u0646\u0627\u0648\u06CC\u0646 \u0647\u0646\u0648\u0632 \u0645\u0648\u062C\u0648\u062F \u0646\u06CC\u0633\u062A.", edition: "\u0646\u0633\u062E\u0647\u0654 \u06F8 \xB7 \u06A9\u062A\u0627\u0628\u062E\u0648\u0627\u0646 \u0648 PDF", readerError: "\u062F\u0631\u06CC\u0627\u0641\u062A \u0645\u062A\u0646 \u0645\u0648\u0641\u0642 \u0646\u0634\u062F. \u062F\u06A9\u0645\u0647\u0654 \u062A\u0644\u0627\u0634 \u062F\u0648\u0628\u0627\u0631\u0647 \u0631\u0627 \u0628\u0632\u0646\u06CC\u062F." });
+Object.assign(text.ps, { downloadPdf: "\u0628\u0634\u067E\u0693 PDF \u069A\u06A9\u062A\u0647 \u06A9\u0693\u0626", pdfReady: "\u0686\u0645\u062A\u0648 PDF", pdfUnavailable: "\u062F \u062F\u06D0 \u0627\u062B\u0631 \u0628\u0634\u067E\u0693 PDF \u0644\u0627 \u067E\u0647 \u06A9\u062A\u0627\u0628\u062A\u0648\u0646 \u06A9\u06D0 \u0646\u0634\u062A\u0647.", internalRead: "\u067E\u0647 \u0647\u0645\u062F\u06D0 \u067E\u0627\u06BC\u0647 \u06A9\u06D0 \u0644\u0648\u0633\u062A\u0644", frameNote: "\u0628\u0634\u067E\u0693 \u0645\u062A\u0646 \u0644\u0627\u0646\u062F\u06D0 \u067E\u0631\u0627\u0646\u06CC\u0633\u062A\u0644 \u06A9\u06D0\u0696\u064A. \u062F \u0644\u0648\u0645\u0693\u064A \u0681\u0644 \u0644\u067E\u0627\u0631\u0647 \u0627\u0646\u067C\u0631\u0646\u06D0\u067C \u0627\u0648 \u0633\u0631\u0686\u06CC\u0646\u06D0 \u062A\u0647 \u0644\u0627\u0633\u0631\u0633\u06CC \u0627\u0693\u06CC\u0646 \u062F\u06CC.", collectionContents: "\u062F \u067C\u0648\u0644\u06AB\u06D0 \u0628\u0631\u062E\u06D0", readerRetry: "\u0628\u06CC\u0627 \u0647\u0685\u0647", readerFailed: "\u0645\u062A\u0646 \u062A\u0631\u0644\u0627\u0633\u0647 \u0646\u0647 \u0634\u0648. \u0628\u06CC\u0627 \u0647\u0685\u0647 \u0648\u06A9\u0693\u0626\u061B \u06A9\u062A\u0627\u0628 \u0644\u0627 \u062F \u0627\u0641\u0644\u0627\u06CC\u0646 \u0644\u0648\u0633\u062A\u0644\u0648 \u0644\u067E\u0627\u0631\u0647 \u0646\u0647 \u062F\u06CC \u0633\u0627\u062A\u0644 \u0634\u0648\u06CC.", backContents: "\u062F \u067C\u0648\u0644\u06AB\u06D0 \u0644\u0693\u0644\u06CC\u06A9", allFormats: "\u067C\u0648\u0644 \u0689\u0648\u0644\u0648\u0646\u0647", pdfOnly: "\u06CC\u0648\u0627\u0632\u06D0 \u0686\u0645\u062A\u0648 PDF \xB7 \u06F1\u06F2 \u06A9\u062A\u0627\u0628\u0648\u0646\u0647", availability: "\u0644\u0627\u0633\u0631\u0633\u06CC", sourceReader: "\u0627\u0646\u0644\u0627\u06CC\u0646 \u06A9\u062A\u0627\u0628\u0644\u0648\u0633\u062A\u0648\u0646\u06A9\u06CC", accessText: "\u06F1\u06F2 \u06A9\u062A\u0627\u0628\u0648\u0646\u0647 \u0628\u0634\u067E\u0693 \u0645\u062A\u0646 \u0627\u0648 \u0645\u0633\u062A\u0642\u06CC\u0645 PDF \u0644\u0631\u064A. \u0646\u0648\u0631 \u06AB\u0648\u062A\u0646\u0628\u0631\u06AB \u0645\u062A\u0646\u0648\u0646\u0647 \u067E\u0647 \u062F\u0627\u062E\u0644\u064A \u0686\u0648\u06A9\u0627\u067C \u0627\u0648 \u06AB\u0646\u062C\u0648\u0631 \u067C\u0648\u0644\u06AB\u06D0 \u0628\u0631\u062E\u0647 \u067E\u0647 \u0628\u0631\u062E\u0647 \u0644\u0648\u0633\u062A\u0644 \u06A9\u06D0\u0696\u064A. \u062F \u067C\u0648\u0644\u0648 \u0627\u062B\u0627\u0631\u0648 PDF \u0644\u0627 \u0646\u0634\u062A\u0647.", edition: "\u06F8 \u0646\u0633\u062E\u0647 \xB7 \u06A9\u062A\u0627\u0628\u0644\u0648\u0633\u062A\u0648\u0646\u06A9\u06CC \u0627\u0648 PDF", readerError: "\u0645\u062A\u0646 \u062A\u0631\u0644\u0627\u0633\u0647 \u0646\u0647 \u0634\u0648. \u0628\u06CC\u0627 \u0647\u0685\u0647 \u0648\u06A9\u0693\u0626." });
+Object.assign(text.en, { downloadPdf: "Download complete PDF", pdfReady: "PDF ready", pdfUnavailable: "A complete PDF of this title is not yet hosted in this library.", internalRead: "Read on this page", frameNote: "The full text loads in the embedded reader below. The first load requires access to its source.", collectionContents: "Collection contents", readerRetry: "Try again", readerFailed: "The text could not be loaded. Try again; this book has not been stored for offline reading.", backContents: "Collection contents", allFormats: "All formats", pdfOnly: "Ready PDF only \xB7 12 books", availability: "Availability", sourceReader: "Online reader", accessText: "Twelve books have complete local text and direct PDF downloads. Other Gutenberg texts load in an embedded reader; Ganjoor collections open section by section. PDFs are not available for every catalog entry.", edition: "Edition 8 \xB7 Reading and PDF", readerError: "Text loading failed. Use Try again." });
+function pdfLink(id) {
+  const p = PDF_FILES[id];
+  return p ? `<a class="pdf-download" href="/ketavilo/${p.path}" download="Ketavilo-${id}.pdf" type="application/pdf">${t("downloadPdf")} \xB7 ${(p.bytes / 1048576).toFixed(1)} MB</a>` : "";
+}
+async function readDeepLink(id) {
+  if (!byId.has(id)) {
+    const range = CATALOG_RANGES.find((r) => id >= r[0] && id <= r[1]);
+    if (range) {
+      try {
+        addBooks(await fetchData(range[2]));
+      } catch (e) {
+        toast(t("readerFailed"));
+        return;
+      }
+    }
+  }
+  if (byId.has(id)) readBook(id);
+}
+function displayRemoteText(id, b, token) {
+  readerState = null;
+  remember(id);
+  $("reader-body").className = "embedded-reader";
+  $("reader-body").style.fontSize = "";
+  $("reader-status").textContent = t("frameNote");
+  $("reader-links").insertAdjacentHTML("afterbegin", `<button data-read="${id}">${t("readerRetry")}</button>`);
+  const frame = document.createElement("iframe");
+  frame.title = b[1] + " \u2014 " + t("internalRead");
+  frame.referrerPolicy = "no-referrer";
+  frame.setAttribute("sandbox", "allow-same-origin");
+  frame.src = "https://www.gutenberg.org/cache/epub/" + id + "/pg" + id + ".txt";
+  frame.addEventListener("error", () => {
+    if (readerToken === token) $("reader-status").textContent = t("readerFailed");
+  });
+  $("reader-body").append(frame);
+}
+const ganjoorCache = /* @__PURE__ */ new Map();
+async function getGanjoor(path) {
+  if (!/^\/[a-zA-Z0-9_\-/]+$/.test(path)) throw new Error("Invalid content path");
+  const file = "poets" + path + ".json";
+  if (ganjoorCache.has(file)) return ganjoorCache.get(file);
+  const controller = typeof AbortController === "function" ? new AbortController() : null;
+  let timer;
+  try {
+    const data = await Promise.race([fetch("https://raw.githubusercontent.com/ganjoor/ganjoor-data/main/" + file, controller ? { signal: controller.signal } : {}).then((r) => {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }), new Promise((_, reject) => {
+      timer = setTimeout(() => {
+        controller == null ? void 0 : controller.abort();
+        reject(new Error("timeout"));
+      }, 2e4);
+    })]);
+    ganjoorCache.set(file, data);
+    return data;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+async function showGanjoorSection(id, path, kind = "category") {
+  const source = sourceBooks[id];
+  if (!source) return;
+  if ($("details").open) $("details").close();
+  if ($("summary-dialog").open) $("summary-dialog").close();
+  const token = ++readerToken;
+  readerState = null;
+  remember(id);
+  $("reader-title").textContent = source.title;
+  $("reader-title").dir = "rtl";
+  $("font-tools").hidden = true;
+  $("reader-pages").hidden = true;
+  $("reader-body").className = "collection-reader";
+  $("reader-body").dir = "rtl";
+  $("reader-body").replaceChildren();
+  $("reader-status").textContent = t("readerLoading");
+  $("reader-links").innerHTML = pdfLink(id);
+  if (!$("reader").open) $("reader").showModal();
+  try {
+    const data = await getGanjoor(path + (kind === "category" ? "/_cat" : ""));
+    if (token !== readerToken || !$("reader").open) return;
+    $("reader-status").textContent = "";
+    const root = new URL(source.source).pathname.replace(/\/$/, "");
+    if (kind === "poem") {
+      const verses = (data.Verses || []).slice().sort((a, b) => a.VOrder - b.VOrder);
+      if (!verses.length) throw new Error("No text");
+      $("reader-body").innerHTML = `<button data-ganjoor-id="${id}" data-ganjoor-path="${esc(root)}" data-ganjoor-kind="category">${t("backContents")}</button><h2 dir="rtl">${esc(data.FullTitle || data.Title)}</h2><div class="poem-text">${verses.map((v) => `<p>${esc(v.Text)}</p>`).join("")}</div><p class="source-note">${esc(source.sourceName)} \xB7 ${esc(data.SourceName || "")}</p>`;
+      $("font-tools").hidden = false;
+    } else {
+      const cats = data.ChildCats || [], poems = data.Poems || [];
+      if (!cats.length && !poems.length) throw new Error("Empty collection");
+      const button = (item, kind2) => `<li><button data-ganjoor-id="${id}" data-ganjoor-path="${esc(item.FullUrl)}" data-ganjoor-kind="${kind2}">${esc(item.Title || item.Name)}</button></li>`;
+      $("reader-body").innerHTML = `${path !== root ? `<button data-ganjoor-id="${id}" data-ganjoor-path="${esc(root)}" data-ganjoor-kind="category">${t("backContents")}</button>` : ""}<h2>${esc(data.Title || source.title)}</h2><p>${t("collectionContents")}</p><ul class="collection-list">${cats.map((c) => button(c, "category")).join("")}${poems.map((p) => button(p, "poem")).join("")}</ul><p class="source-note">${t("pdfUnavailable")}</p>`;
+    }
+  } catch (error) {
+    if (token === readerToken && $("reader").open) {
+      $("reader-status").textContent = t("readerFailed");
+      $("reader-body").innerHTML = `<button class="primary" data-ganjoor-id="${id}" data-ganjoor-path="${esc(path)}" data-ganjoor-kind="${kind}">${t("readerRetry")}</button>`;
+    }
+  }
+}
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-ganjoor-id]");
+  if (b) {
+    e.preventDefault();
+    showGanjoorSection(Number(b.dataset.ganjoorId), b.dataset.ganjoorPath, b.dataset.ganjoorKind);
+  }
+});
 let catalogLoaded = false, catalogRunning = false, catalogFailure = false, catalogParts = [], loadedParts = /* @__PURE__ */ new Set(), currentSummaryKey = null;
 const summaryRequests = /* @__PURE__ */ new Map();
 function prepareControls() {
@@ -31,6 +143,16 @@ function prepareControls() {
     panel.className = "load-panel";
     panel.innerHTML = '<span id="load-message"></span> <button id="catalog-retry" class="text-button" hidden></button> <a id="catalog-static-link" href="/ketavilo/catalog.html"></a>';
     $("grid").before(panel);
+  }
+  if (!$("availability")) {
+    const label = document.createElement("label");
+    label.innerHTML = '<span data-t="availability">\u062F\u0633\u062A\u0631\u0633\u06CC</span><select id="availability"><option value="" data-t="allFormats">\u0647\u0645\u0647\u0654 \u0642\u0627\u0644\u0628\u200C\u0647\u0627</option><option value="pdf" data-t="pdfOnly">\u0641\u0642\u0637 PDF \u0622\u0645\u0627\u062F\u0647 \xB7 \u06F1\u06F2 \u06A9\u062A\u0627\u0628</option></select>';
+    document.querySelector(".filters").append(label);
+    $("availability").onchange = (e) => {
+      availability = e.target.value;
+      limit = 25;
+      render();
+    };
   }
   $("source-filter").value = sourceFilter;
   $("search").value = term;
@@ -188,7 +310,7 @@ async function start() {
     applyLanguage();
     loadingState();
     const id = Number(query.get("book"));
-    if (byId.has(id)) details(id);
+    if (query.has("book")) readDeepLink(id);
     if (query.get("summary")) openSummary(query.get("summary"));
     $("catalog-retry").onclick = loadCatalog;
     window.addEventListener("online", loadCatalog);
@@ -297,7 +419,7 @@ function cover(book) {
 }
 function bookCard(b) {
   let saved = favorites.has(b[0]);
-  return `<article class="card"><button class="save" data-save="${b[0]}" aria-pressed="${saved}" aria-label="${esc(t(saved ? "unsave" : "save"))}">${saved ? "\u2605" : "\u2606"}</button><button class="cover" style="--cover:${colors[Math.abs(b[0]) % colors.length]}" data-details="${b[0]}" aria-label="${esc(t("details") + ": " + b[1])}">${cover(b)}</button><h3 dir="auto">${esc(b[1])}</h3><p class="author" dir="auto">${esc(b[2] || t("unknownAuthor"))}</p><div class="card-meta"><span>${esc(b[3].split("; ").map(languageName).join(" \xB7 "))}</span><span>${t(localIds.has(b[0]) ? "localReader" : "sourceReader")}</span></div><div class="card-actions"><button class="read-button" data-read="${b[0]}">${t("read")}</button><button data-details="${b[0]}">${t("details")}</button></div></article>`;
+  return `<article class="card"><button class="save" data-save="${b[0]}" aria-pressed="${saved}" aria-label="${esc(t(saved ? "unsave" : "save"))}">${saved ? "\u2605" : "\u2606"}</button><button class="cover" style="--cover:${colors[Math.abs(b[0]) % colors.length]}" data-details="${b[0]}" aria-label="${esc(t("details") + ": " + b[1])}">${cover(b)}</button><h3 dir="auto">${esc(b[1])}</h3><p class="author" dir="auto">${esc(b[2] || t("unknownAuthor"))}</p><div class="card-meta"><span>${esc(b[3].split("; ").map(languageName).join(" \xB7 "))}</span><span>${t("internalRead")}${PDF_FILES[b[0]] ? " \xB7 PDF" : ""}</span></div><div class="card-actions"><button class="read-button" data-read="${b[0]}">${t("read")}</button><button data-details="${b[0]}">${t("details")}</button>${pdfLink(b[0])}</div></article>`;
 }
 function setView(nextView) {
   if (!["library", "summaries", "saved"].includes(nextView)) return;
@@ -310,7 +432,7 @@ function setView(nextView) {
   $("catalog").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
 }
 function filteredBooks() {
-  let result = books;
+  let result = availability === "pdf" ? books.filter((b) => PDF_FILES[b[0]]) : books;
   if (view === "library" && sourceFilter) result = result.filter((b) => sourceFilter === "ganjoor" ? Boolean(sourceBooks[b[0]]) : !sourceBooks[b[0]]);
   if (view === "saved") {
     const ids = shelf === "favorites" ? favorites : new Set(history.map((x) => x.id));
@@ -336,6 +458,7 @@ function render() {
   $("grid").setAttribute("aria-busy", "false");
   $("shelf-tabs").hidden = view !== "saved";
   $("source-filter-label").hidden = view !== "library";
+  $("availability").closest("label").hidden = view === "summaries";
   $("book-language").closest("label").hidden = false;
   $("sort").closest("label").hidden = view === "summaries";
   document.querySelectorAll("[data-shelf]").forEach((b) => b.classList.toggle("active", b.dataset.shelf === shelf));
@@ -358,14 +481,14 @@ function render() {
   $("empty").querySelector("p").textContent = t(view === "saved" ? "emptyShelf" : view === "summaries" ? "noSummaries" : "emptyText");
   $("notice").hidden = false;
   $("notice").textContent = view === "summaries" ? t("summaryNote") : bookLanguage && !(meta.languages[bookLanguage] > 0) ? t("languageEmpty") : view === "library" ? t("overlap") : t("localOnly");
-  $("reset").disabled = !term && !bookLanguage && category < 0 && !sourceFilter;
+  $("reset").disabled = !availability && !term && !bookLanguage && category < 0 && !sourceFilter;
 }
 function details(id) {
   if (sourceBooks[id]) return sourceDetails(id);
   const b = byId.get(id);
   if (!b) return;
   const tags = categories[language].filter((_, i) => b[4] & 1 << i);
-  $("details-content").innerHTML = `<div class="details-layout"><div class="cover" style="--cover:${colors[Math.abs(id) % 8]}">${cover(b)}</div><div><h2 dir="auto">${esc(b[1])}</h2><p><b>${t("author")}:</b> <span dir="auto">${esc(b[2] || t("unknownAuthor"))}</span></p><p>${t("language")}: ${esc(b[3].split("; ").map(languageName).join(" \xB7 "))}</p><p>${t("id")}: ${id}</p><div class="tags">${tags.map((tag) => `<span>${esc(tag)}</span>`).join("")}</div></div></div><div class="detail-actions"><button class="primary" data-read="${id}">${t("read")}</button><a href="https://www.gutenberg.org/ebooks/${id}.epub3.images">${t("download")}</a><a href="${localIds.has(id) ? "/ketavilo/" + id + ".txt" : "https://www.gutenberg.org/ebooks/" + id + ".txt.utf-8"}" ${localIds.has(id) ? "download" : ""} target="_blank" rel="noopener noreferrer">${t("downloadTxt")}</a><button data-save="${id}" aria-pressed="${favorites.has(id)}">${t(favorites.has(id) ? "unsave" : "save")}</button><button data-share="${id}">${t("share")}</button></div><p class="source-note"><a href="https://www.gutenberg.org/ebooks/${id}" target="_blank" rel="noopener noreferrer">${t("source")}</a><br>${t("rights")}</p>`;
+  $("details-content").innerHTML = `<div class="details-layout"><div class="cover" style="--cover:${colors[Math.abs(id) % 8]}">${cover(b)}</div><div><h2 dir="auto">${esc(b[1])}</h2><p><b>${t("author")}:</b> <span dir="auto">${esc(b[2] || t("unknownAuthor"))}</span></p><p>${t("language")}: ${esc(b[3].split("; ").map(languageName).join(" \xB7 "))}</p><p>${t("id")}: ${id}</p><div class="tags">${tags.map((tag) => `<span>${esc(tag)}</span>`).join("")}</div></div></div><div class="detail-actions">${pdfLink(id)}<button class="primary" data-read="${id}">${t("read")}</button><a href="https://www.gutenberg.org/ebooks/${id}.epub3.images">${t("download")}</a><a href="${localIds.has(id) ? "/ketavilo/" + id + ".txt" : "https://www.gutenberg.org/ebooks/" + id + ".txt.utf-8"}" ${localIds.has(id) ? "download" : ""} target="_blank" rel="noopener noreferrer">${t("downloadTxt")}</a><button data-save="${id}" aria-pressed="${favorites.has(id)}">${t(favorites.has(id) ? "unsave" : "save")}</button><button data-share="${id}">${t("share")}</button></div><p class="source-note"><a href="https://www.gutenberg.org/ebooks/${id}" target="_blank" rel="noopener noreferrer">${t("source")}</a><br>${t("rights")}</p>`;
   $("details").showModal();
 }
 function toggleFavorite(id) {
@@ -425,7 +548,7 @@ async function readBook(id) {
   $("reader-body").replaceChildren();
   $("reader-body").className = "";
   $("reader-body").dir = /^(fa|ps|ar|he)/.test(b[3]) ? "rtl" : "ltr";
-  $("reader-links").innerHTML = `<a href="https://www.gutenberg.org/ebooks/${id}" target="_blank" rel="noopener noreferrer">${t("source")}</a><a href="https://www.gutenberg.org/ebooks/${id}.epub3.images">${t("download")}</a>`;
+  $("reader-links").innerHTML = pdfLink(id) + `<a href="https://www.gutenberg.org/ebooks/${id}" target="_blank" rel="noopener noreferrer">${t("source")}</a><a href="https://www.gutenberg.org/ebooks/${id}.epub3.images">${t("download")}</a>`;
   const local = localIds.has(id);
   $("font-tools").hidden = !local;
   $("reader-pages").hidden = !local;
@@ -440,17 +563,13 @@ async function readBook(id) {
       $("reader-status").textContent = "";
       showPage();
     } catch (e) {
-      if (token === readerToken) $("reader-status").textContent = t("readerError");
+      if (token === readerToken) {
+        $("reader-status").textContent = t("readerError");
+        $("reader-body").innerHTML = `<button data-read="${id}">${t("readerRetry")}</button>`;
+      }
     }
   } else {
-    readerState = null;
-    remember(id);
-    $("reader-status").textContent = "";
-    $("reader-body").className = "external";
-    const box = document.createElement("div");
-    box.className = "source-landing";
-    box.innerHTML = `<div class="eyebrow">PROJECT GUTENBERG</div><h2 dir="auto">${esc(b[1])}</h2><p>${t("externalNote")}</p><a class="primary" href="https://www.gutenberg.org/ebooks/${id}.html.images" target="_blank" rel="noopener noreferrer">${t("openSource")}</a><p class="source-note"><a href="https://www.gutenberg.org/ebooks/${id}" target="_blank" rel="noopener noreferrer">${t("source")}</a></p>`;
-    $("reader-body").append(box);
+    displayRemoteText(id, b, token);
   }
 }
 function showPage() {
@@ -474,7 +593,6 @@ function openSummary(key) {
   $("summary-dialog").showModal();
 }
 document.addEventListener("click", async (e) => {
-  var _a2;
   const button = e.target.closest("button, a[data-category], a[data-view], a[data-read]");
   if (!button) return;
   if (!meta && button.tagName === "A") return;
@@ -505,7 +623,7 @@ document.addEventListener("click", async (e) => {
   }
   if (button.dataset.share) {
     try {
-      const url = ((_a2 = sourceBooks[button.dataset.share]) == null ? void 0 : _a2.source) || "https://www.gutenberg.org/ebooks/" + button.dataset.share;
+      const url = location.origin + "/ketavilo/?v=8&book=" + encodeURIComponent(button.dataset.share);
       await navigator.clipboard.writeText(url);
       toast(t("copied"));
     } catch (e2) {
@@ -553,6 +671,8 @@ $("source-filter").onchange = (e) => {
   render();
 };
 $("reset").onclick = () => {
+  availability = "";
+  if ($("availability")) $("availability").value = "";
   sourceFilter = "";
   $("source-filter").value = "";
   term = "";
@@ -599,24 +719,10 @@ document.body.classList.toggle("light", theme === "light");
 applyLanguage();
 function sourceDetails(id) {
   const source = sourceBooks[id];
-  $("details-content").innerHTML = `<h2 dir="auto">${esc(source.title)}</h2><p dir="auto">${esc(source.author)}</p><p>${esc(t("collection"))} \xB7 ${esc(languageName(source.language))} \xB7 ${esc(source.sourceName)}</p>${source.language === "und" ? `<p class="notice">${t("unknownLanguageNote")}</p>` : ""}<div class="detail-actions"><button class="primary" data-read="${id}">${t("read")}</button><a href="${esc(source.download)}" target="_blank" rel="noopener noreferrer">${t("download")}</a><button data-save="${id}">${t(favorites.has(id) ? "unsave" : "save")}</button><button data-share="${id}">${t("share")}</button></div><p class="source-note">${t("rightsSource")}</p><a href="${esc(source.source)}" target="_blank" rel="noopener noreferrer">${t("source")}</a>`;
+  $("details-content").innerHTML = `<h2 dir="auto">${esc(source.title)}</h2><p dir="auto">${esc(source.author)}</p><p>${esc(t("collection"))} \xB7 ${esc(languageName(source.language))} \xB7 ${esc(source.sourceName)}</p>${source.language === "und" ? `<p class="notice">${t("unknownLanguageNote")}</p>` : ""}<div class="detail-actions">${pdfLink(id)}<button class="primary" data-read="${id}">${t("read")}</button><a href="${esc(source.download)}" target="_blank" rel="noopener noreferrer">${t("download")}</a><button data-save="${id}">${t(favorites.has(id) ? "unsave" : "save")}</button><button data-share="${id}">${t("share")}</button></div><p class="source-note">${t("rightsSource")}</p><a href="${esc(source.source)}" target="_blank" rel="noopener noreferrer">${t("source")}</a>`;
   $("details").showModal();
 }
 function readSourceBook(id) {
-  const source = sourceBooks[id];
-  if ($("details").open) $("details").close();
-  readerToken++;
-  readerState = null;
-  remember(id);
-  $("reader-title").textContent = source.title;
-  $("reader-title").dir = "rtl";
-  $("reader-status").textContent = "";
-  $("font-tools").hidden = true;
-  $("reader-pages").hidden = true;
-  $("reader-links").innerHTML = `<a href="${esc(source.download)}" target="_blank" rel="noopener noreferrer">${t("download")}</a>`;
-  $("reader-body").className = "external";
-  $("reader-body").dir = document.documentElement.dir;
-  $("reader-body").innerHTML = `<div class="source-landing"><div class="eyebrow">GANJOOR</div><h2 dir="auto">${esc(source.title)}</h2><p>${t("externalNote")}</p><a class="primary" href="${esc(source.readUrl || source.source)}" target="_blank" rel="noopener noreferrer">${t(source.readUrl ? "download" : "openSource")}</a><p class="source-note">${t("rightsSource")}</p></div>`;
-  $("reader").showModal();
+  return showGanjoorSection(id, new URL(sourceBooks[id].source).pathname.replace(/\/$/, ""), "category");
 }
 start();

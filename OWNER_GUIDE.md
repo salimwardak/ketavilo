@@ -20,4 +20,8 @@ Owner signature: Salim Suliman. Acknowledgment below the signature removed.
 
 ## Version 6 loading update
 
-If a previous cached page is open, use the current release link: https://salimwardak.github.io/ketavilo/?v=7 . This release includes real book links in the initial HTML, progressive catalog loading, per-summary text loading, retries, and a script-free catalog at https://salimwardak.github.io/ketavilo/catalog.html .
+If a previous cached page is open, use the current release link: https://salimwardak.github.io/ketavilo/?v=8 . This release includes real book links in the initial HTML, progressive catalog loading, per-summary text loading, retries, and a script-free catalog at https://salimwardak.github.io/ketavilo/catalog.html .
+
+
+## Reading and PDF availability (Edition 8)
+12 complete, locally hosted book PDFs are listed in pdf-manifest-v8.json. The PDF-only filter shows exactly these books. Other Gutenberg texts load in a sandboxed iframe without leaving Ketavilo; source connectivity is required and these texts are not locally hosted. Ganjoor collections use the public CORS JSON dataset, with categories and poems rendered inside the reader. Some older source entries may not exist in that dataset. There is no claim that all catalog entries have a PDF or that all external texts are individually verified.

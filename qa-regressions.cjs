@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 let JSDOM;try{({JSDOM}=require('jsdom'))}catch{({JSDOM}=require('./qa-deps/node_modules/jsdom'))}
-const root=fs.existsSync(path.join(__dirname,'app-v7.js'))?__dirname:path.join(__dirname,'github-pages-ready');
-const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),script=fs.readFileSync(path.join(root,'app-v7.js'),'utf8');
+const root=fs.existsSync(path.join(__dirname,'app-v8.js'))?__dirname:path.join(__dirname,'github-pages-ready');
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),script=fs.readFileSync(path.join(root,'app-v8.js'),'utf8');
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
 async function until(test,reason,limit=18000){const start=Date.now();while(!test()){if(Date.now()-start>limit)throw new Error(reason);await delay(25)}}
 function setup(mode='success',old=false,legacyDialog=false){

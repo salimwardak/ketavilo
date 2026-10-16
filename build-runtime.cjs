@@ -1,1 +1,1 @@
-const fs=require('node:fs'),esbuild=require('esbuild');esbuild.buildSync({entryPoints:['app-source-v7.js'],target:'es2017',outfile:'app-v7.js'});fs.copyFileSync('app-v7.js','app.js');esbuild.buildSync({entryPoints:['sw-source-v7.js'],target:'es2017',outfile:'sw.js'});
+const fs=require('node:fs'),esbuild=require('esbuild');esbuild.buildSync({entryPoints:['app-source-v8.js'],target:'es2017',outfile:'app-v8.js'});fs.copyFileSync('app-v8.js','app.js');esbuild.buildSync({entryPoints:['sw-source-v8.js'],target:'es2017',outfile:'sw.js'});

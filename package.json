@@ -2,7 +2,7 @@
   "name": "ketavilo-static",
   "private": true,
   "scripts": {
-    "test": "node qa-regressions.cjs",
+    "test": "node qa-regressions.cjs && node qa-reader-v8.cjs",
     "build:runtime": "node build-runtime.cjs"
   },
   "devDependencies": {
