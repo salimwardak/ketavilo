@@ -4,4 +4,6 @@
 
 .source-landing{margin:auto;text-align:center;padding:40px;max-width:650px}.source-landing h2{font:30px/1.7 Georgia,Tahoma,serif}.source-landing p{font:13px/2 Tahoma,Arial,sans-serif;color:var(--muted)}
 
-.signature-credit{display:block;font:inherit;font-size:13px;line-height:1.7;margin-top:5px;color:inherit;letter-spacing:.1px}
+
+
+.source-summary{line-height:1.9;overflow-wrap:anywhere}.source-summary p{margin:1.2em 0}.source-note a{text-decoration:underline;text-underline-offset:3px}
