@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 let JSDOM;try{({JSDOM}=require('jsdom'))}catch{({JSDOM}=require('./qa-deps/node_modules/jsdom'))}
-const root=fs.existsSync(path.join(__dirname,'app-v8.js'))?__dirname:path.join(__dirname,'github-pages-ready');
-const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),script=fs.readFileSync(path.join(root,'app-v8.js'),'utf8');
+const root=fs.existsSync(path.join(__dirname,'app-v9.js'))?__dirname:path.join(__dirname,'github-pages-ready');
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),script=fs.readFileSync(path.join(root,'app-v9.js'),'utf8');
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
 async function until(test,reason,limit=18000){const start=Date.now();while(!test()){if(Date.now()-start>limit)throw new Error(reason);await delay(25)}}
 function setup(mode='success',old=false,legacyDialog=false){
@@ -18,7 +18,7 @@ function setup(mode='success',old=false,legacyDialog=false){
   return {ok:true,status:200,json:async()=>JSON.parse(content),text:async()=>content};
  };
  if(legacyDialog)w.document.querySelectorAll('dialog').forEach(d=>{Object.defineProperty(d,'open',{configurable:true,value:undefined});d.showModal=undefined;d.close=undefined});
- w.eval(script);
+ w.eval(script);const av=w.document.getElementById('availability');av.value='';av.dispatchEvent(new w.Event('change',{bubbles:true}));
  return {dom,w,errors,requests,setMode:value=>currentMode=value,close:()=>w.close()};
 }
 function click(w,selector){const el=w.document.querySelector(selector);assert(el,'Missing control '+selector);el.click()}

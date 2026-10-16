@@ -1,7 +1,7 @@
-const CACHE = "ketavilo-v8-20261016";
+const CACHE = "ketavilo-v9-20261016";
 const BASE = "/ketavilo/";
 self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then(async (cache) => {
-  await Promise.all([BASE, BASE + "app-v8.js", BASE + "style.css?v=8", BASE + "bootstrap-v6.json", BASE + "icon.svg"].map(async (path) => {
+  await Promise.all([BASE, BASE + "app-v9.js", BASE + "style.css?v=9", BASE + "bootstrap-v9.json", BASE + "icon.svg"].map(async (path) => {
     try {
       await cache.add(path);
     } catch (e) {
@@ -15,7 +15,7 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET" || url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
-    const versioned = /\/(?:app-v8\.js|bootstrap-v6\.json|catalog-v6-\d+\.json|summary-v6-\d+\.json)$/.test(url.pathname);
+    const versioned = /\/(?:app-v9\.js|bootstrap-v9\.json|catalog-v6-\d+\.json|summary-v6-\d+\.json)$/.test(url.pathname);
     if (versioned) {
       const stored = await cache.match(request);
       if (stored) return stored;

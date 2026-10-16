@@ -1,0 +1,82 @@
+{
+  "74": {
+    "path": "book-74.pdf",
+    "bytes": 476310,
+    "pages": 256,
+    "sha256": "51ed18485c3dbc899a3a3498e10a6707ccb105f00048c3ef4de63cceed6734f1"
+  },
+  "84": {
+    "path": "book-84.pdf",
+    "bytes": 464147,
+    "pages": 227,
+    "sha256": "17d0de6d737bb7ed3c763e46a0b7f9ecdffa922a246e0ea0c6af39f468ee7b8e"
+  },
+  "1232": {
+    "path": "book-1232.pdf",
+    "bytes": 313013,
+    "pages": 152,
+    "sha256": "7a924458944aa807aa9c768bda886019d10c5acfff548ca92b15a3cfcfc37260"
+  },
+  "5200": {
+    "path": "book-5200.pdf",
+    "bytes": 154157,
+    "pages": 69,
+    "sha256": "cc908882b4123a44f536051a8da32b4be832ca0b118ded7fe998f635a4569346"
+  },
+  "345": {
+    "path": "book-345.pdf",
+    "bytes": 904230,
+    "pages": 458,
+    "sha256": "fddf375051e07f8e5d778e76e136923eefc22d5a1f44c49f2a37a831d50f3181"
+  },
+  "1661": {
+    "path": "book-1661.pdf",
+    "bytes": 652887,
+    "pages": 344,
+    "sha256": "d059f3187ca5eb1a14d28b97d73a7faf8a0f4fc1df27ff3bf09ce48e4bc991c2"
+  },
+  "64317": {
+    "path": "book-64317.pdf",
+    "bytes": 350121,
+    "pages": 184,
+    "sha256": "6b83ecbf875552af9c80ef9cc5749bf08069b8c624045bfd11703e18d5d869d2"
+  },
+  "11": {
+    "path": "book-11.pdf",
+    "bytes": 198625,
+    "pages": 100,
+    "sha256": "ee8d1c6e5856d39a56b1f7bc8710ad772e1d603b5733870eb710464dfd4689ee"
+  },
+  "46": {
+    "path": "book-46.pdf",
+    "bytes": 212153,
+    "pages": 106,
+    "sha256": "3af16b339aac6ebe5b4ecbe7006398d96494fd5620ae2f58c2505e445bc47538"
+  },
+  "1342": {
+    "path": "book-1342.pdf",
+    "bytes": 802766,
+    "pages": 416,
+    "sha256": "5ae5b900f67dc8c9636a82ff8d65f2204eb49144b3809355b918d6d46d351945"
+  },
+  "98": {
+    "path": "book-98.pdf",
+    "bytes": 847829,
+    "pages": 456,
+    "sha256": "c4a158b31a9f366555c8d1da8d68bc7dc129dbaa113da941786ee538a640b747"
+  },
+  "2701": {
+    "path": "book-2701.pdf",
+    "bytes": 1290924,
+    "pages": 649,
+    "sha256": "79fc066984bbfa7969f9a4107fd83dba8950dbe7ab8c54c4baade650689c859c"
+  },
+  "-2000003": {
+    "path": "book-hafez.pdf",
+    "bytes": 1009318,
+    "pages": 615,
+    "sha256": "c6e87a04096b58b8f1cc6cfa8ee53e918781de422873a6bac7d5cf688f18931d",
+    "poems": 695,
+    "source": "https://i.ganjoor.net/epub/hafez.epub"
+  }
+}
