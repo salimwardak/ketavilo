@@ -2,9 +2,12 @@
 
 Public site: https://salimwardak.github.io/ketavilo/
 
-Static Edition 4. 78,325 catalog editions, eight overlapping subject categories, 12 complete on-site classics and 12 original summaries in Persian, Pashto and English. Catalog metadata from Project Gutenberg; the 12 text files retain source notices and licenses. Other book formats and reading access are provided at the source.
+Edition 5. 78,325 Gutenberg text editions and 58 labelled Persian collected-work entries from Ganjoor. Eight overlapping subject categories each contain more than 1,000 catalog entries.
 
-Owner: Salim Suliman
+1,012 distinct book summaries: 12 original summaries in Persian, Pashto and English, plus 1,000 source-attributed Wikipedia plot/content summaries. 153 summaries have Persian text; the remaining sourced summaries are in English, clearly labelled. Interface selection does not translate book or summary text. Wikipedia excerpts carry their revision links, contributor attribution, changes and CC BY-SA 4.0 notice in both the app and static pages.
 
+The source text of contemporary books is not reproduced by the summary feature. Twelve classic complete texts retain Gutenberg notices and licenses. Other books and Ganjoor collections open or download at their original source. Listing a free source does not transfer its rights. Not every source download has been individually tested; 40 Ganjoor EPUB metadata files were checked, and the additional well-known Persian collections come from Ganjoor's official EPUB catalog.
 
-Files are kept at repository root for a buildless GitHub Pages deployment. `summaries.html` links to the 36 original summary pages. `robots.txt` and `sitemap.xml` use this site's canonical origin. Interface language does not translate book texts. This catalog edition includes one Persian text and no Pashto text; the interface and all original summaries are available in all three languages. Browser-local favorites and internal reader progress have no cloud synchronization.
+Owner signature: Salim Suliman
+
+All acknowledgments below the owner signature were removed at the owner's request. Favorites, language, theme and reading progress are local to the browser. No account or cloud synchronization.
