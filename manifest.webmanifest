@@ -1,0 +1,1 @@
+{"name": "Ketavilo Library", "short_name": "Ketavilo", "start_url": "/ketavilo/", "display": "standalone", "background_color": "#171412", "theme_color": "#211a17", "icons": [{"src": "/ketavilo/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}], "scope": "/ketavilo/"}
